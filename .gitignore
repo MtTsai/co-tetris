@@ -1,0 +1,14 @@
+#
+# common ignore files
+#
+
+*.o
+*.swp
+*.bak
+*.DS_Store
+
+#
+# for nodejs modules installed by npm
+#
+
+node_modules/*
