@@ -8,6 +8,17 @@
 *.DS_Store
 
 #
+# bundle.js
+#
+public/javascripts/bundle.js
+
+#
+# sass
+#
+.sass-cache
+*.css.map
+
+#
 # for nodejs modules installed by npm
 #
 

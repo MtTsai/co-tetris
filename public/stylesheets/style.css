@@ -5,4 +5,56 @@ body {
 a {
   color: #00B7FF; }
 
+.coTetris {
+  display: -ms-grid;
+  -ms-grid-columns: 10% 10% 1fr;
+  -ms-grid-rows: 20% 20% auto; }
+
+#col1 {
+  -ms-grid-column: 1; }
+
+#col2 {
+  -ms-grid-column: 2; }
+
+.grid {
+  display: inline-block;
+  width: 3vmin;
+  height: 3vmin;
+  margin: 0 auto;
+  background: rgba(255, 255, 0, 0.3);
+  border-style: double;
+  border-width: 1vmin; }
+
+.grid:hover {
+  width: 5vmin;
+  height: 5vmin;
+  margin: 0 auto;
+  background: rgba(255, 255, 0, 0.3);
+  border-style: double;
+  border-width: 1vmin; }
+
+.clash-tile {
+  display: inline-block;
+  float: left;
+  width: 2vmin;
+  height: 2vmin;
+  margin: 0 auto;
+  background: rgba(255, 255, 0, 0.3);
+  border-style: double;
+  border-width: 1vmin; }
+
+.clash-tile:nth-child(odd) {
+  background: rgba(255, 127, 0, 0.5); }
+
+.clash-tile:nth-child(even) {
+  background: rgba(127, 255, 0, 0.5); }
+
+.main {
+  width: 40vmin;
+  margin: 0 auto; }
+
+.coTetrix {
+  width: 100vmin;
+  margin: 0 auto; }
+
 /*# sourceMappingURL=style.css.map */
